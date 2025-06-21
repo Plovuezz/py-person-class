@@ -10,6 +10,7 @@ class Person:
 
 def create_person_list(people: list) -> list:
 
+    Person.people = {}
     list_of_people = []
 
     for person in people:
